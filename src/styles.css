@@ -1,0 +1,13 @@
+:root{
+  --accent: #0d6efd;
+  --bg: #fff;
+  --text: #222;
+}
+html,body,#root{height:100%;}
+body{margin:0;font-family:system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; background:var(--bg); color:var(--text);}
+.app-root{max-width:720px;margin:24px auto;padding:16px}
+header h1{font-size:1.25rem;margin:0 0 12px}
+.install-btn{display:inline-block;padding:10px 16px;border-radius:8px;border:none;background:var(--accent);color:#fff;font-weight:600}
+.card{margin-top:16px;padding:12px;border-radius:8px;background:#f8f9fb}
+.notice{padding:8px;background:#e7ffe7;border-radius:6px}
+.hint{color:#666}
